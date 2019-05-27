@@ -1,0 +1,39 @@
+/* pages/myindex/myindex.wxss */
+.center{
+  background-color: #FFFFFF;
+  width:650rpx;
+  height: 800rpx;
+  margin-left: 50rpx;
+  margin-top: 150rpx;
+  border-radius: 8rpx;
+  border-top: #f19d38 double 26rpx;
+}
+
+.head_image image{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 225rpx;
+  margin-top: 150rpx;
+}
+
+.head_image{
+  margin-bottom: 100rpx;
+}
+
+.info{
+  width:650rpx;
+  margin-left: 165rpx;
+  margin-top: 30rpx;
+}
+
+.set{
+  margin-left: 540rpx;
+  margin-top: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.set image{
+  width: 80rpx;
+  height: 80rpx;
+}

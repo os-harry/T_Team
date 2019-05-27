@@ -1,0 +1,39 @@
+<!--pages/team_list/team_list.wxml-->
+
+<view class="head">
+  <view class="class_name">
+    <text>{{class_info.id}}：{{class_info.name}}</text>
+  </view>
+  <view class="intro">
+    <image src="../../image/team_list/team.jpg"/>
+    <text class="sup">{{class_info.sup}}人</text>
+    <text class="count">共计{{class_info.teams_count}}队</text>
+    <navigator class="out">导出队伍信息</navigator>
+    <view class="clear"></view>
+  </view>
+  <view class="option choose">
+    <navigator url="../team_list/team_list">加入队伍</navigator>
+  </view>
+  <view class="option">
+    <navigator class="create" url="../team_create/team_create">创建队伍</navigator>
+  </view>
+  <view class="clear"></view>
+</view>
+<view class="team_list">
+    <view class="team" wx:for="{{teams}}" wx:for-item="team">
+      <view class="id">
+        <text>ID：{{team.id}}</text>
+      </view> 
+      <view class="more" data-teamid="{{team.id}}" bindtap='go_into_team'>
+        <image src="../../image/team_list/join.jpg"/>
+      </view>   
+      <view class="number">
+        <text>{{team.count}}/{{team.sup}}</text>
+      </view>
+      <view class="clear"></view>
+      <view class="info">
+        <text class="member">成员：{{team.member}}</text>
+      </view>
+    </view>  
+</view>
+

@@ -1,0 +1,108 @@
+/* pages/class_create/class_create.wxss */
+/* pages/class_join/class_join.wxss */
+.join_input{
+  background-color: white;
+  border:1rpx #aaa solid;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+
+  margin-bottom: 10rpx;
+  width:240rpx;
+  border-radius: 5rpx;
+}
+.basic{
+  display: flex;
+  margin-top:55rpx;
+}
+.basic_text{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin:20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+
+}
+.head{
+  margin: 20rpx;
+  font-size: 40rpx;
+  padding-top: 50rpx;
+  padding-left: 10rpx;
+  font-weight: bold;
+  color: #333;
+}
+.in_su text{
+  font-weight: 32rpx;
+  margin: 10rpx;
+  color: #333;
+}
+.intro{
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  color: #444;
+}
+.page_m{
+  background-color: white;
+  margin-top:180rpx;
+  height: 820rpx;
+  width:680rpx;
+  margin-left:35rpx;
+  border-radius: 10rpx;
+  border-top:#f19d38 double 40rpx;
+}
+.in_su{
+ 
+}
+.create_button{
+  margin-top: 10rpx;
+  margin-left: 590rpx;
+  width:68rpx;
+  height:60rpx;
+
+}
+.crea_button{
+  margin-top: 10rpx;
+  margin-left: 590rpx;
+  width:68rpx;
+  height:60rpx;
+}
+.join_input_2{
+  background-color: white;
+  border:1rpx #aaa solid;
+  margin-left:5rpx;
+  margin-right: 5rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  width:130rpx;
+  border-radius: 5rpx;
+}
+.basic_2{
+  display: flex;
+  margin-top:10rpx;
+  margin-left: 10rpx;
+}
+.basic_text_2{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin:5rpx;
+  padding-left: 5rpx;
+  padding-right: 0rpx;
+}
+.basic_text_3{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin:5rpx;
+  padding-left: 15rpx;
+  padding-right: 0rpx;
+}
+.join_input_3{
+  background-color: white;
+  border:1rpx #aaa solid;
+  margin-left:30rpx;
+  margin-right: 10rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width:620rpx;
+  height: 240rpx;
+  border-radius: 5rpx;
+}

@@ -1,0 +1,66 @@
+/* pages/class_join/class_join.wxss */
+.join_input{
+  background-color: white;
+  border:1rpx #aaa solid;
+
+  margin-top: 10rpx;
+  margin-left: 5rpx;
+  margin-right: 2.5rpx;
+  width: 300rpx;
+}
+.head{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  padding-left: 30rpx;
+  padding-top: 30rpx;
+  color:#333;
+  font-weight: bold;
+}
+.intro{
+  font-size: 28rpx;
+  color: #444;
+  margin-left: 50rpx;
+}
+.page_m{
+  background-color: white;
+  margin-top:360rpx;
+  height: 400rpx;
+  width: 650rpx;
+  margin-left: 50rpx;
+  border-radius: 12rpx;
+  border-top:#f19d38 double 40rpx;
+}
+.in_su{
+  margin-top: 30rpx;
+  margin-left: 50rpx;
+  height: 60rpx;
+}
+.in_su text{
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 60rpx;
+  float: left;
+  width: 152rpx;
+}
+.in_su input{
+  width: 202rpx;
+  float:left;
+  height: 60rpx;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+
+.join{
+  margin-left: 10rpx;
+  float: left;
+}
+.join_button{
+  margin-top: 9rpx;
+  margin-left: 10rpx;
+  width:128rpx;
+  height:60rpx;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+}

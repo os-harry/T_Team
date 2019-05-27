@@ -1,0 +1,25 @@
+<!--pages/request_more/request_more.wxml-->
+<view class='block'>
+  <view class='head'>
+    <view class='title'>邀请处理</view>
+    <view class='more'>
+      <view class = 'request_box'>
+        <view class='invite_head'><text class='a_text'>{{invite_data.cap}} </text> <text class='head_text'>邀请 </text><text class='a_text'>{{invite_data.me}} </text><text class='head_text'>加入 队伍：</text><text class='a_text'>{{invite_data.team_id}}</text></view>
+        <view class='invite_member'><text class='member_text'>当前队员为：</text><text wx:for="{{invite_data.member}}" wx:for-item="i">{{i}} </text>
+        
+        </view>
+    
+      <view class='invite_time'>{{invite_data.time}}</view>
+    
+      </view>
+    </view>
+  </view>
+  <view class='choise'>
+   <navigator url = '../request_list/request_list' open-type='navigateBack'>
+        <button class='c_button' bindtap='agree' >欣然同意</button>
+        <button class='c_button' bindtap='refuse'>残忍拒绝</button>
+        <button class='c_button' bindtap='cancel'>观望观望</button>
+    </navigator>
+    
+  </view>
+</view>

@@ -1,0 +1,27 @@
+<!--pages/login/login.wxml-->
+<view class="background">
+  <view class="box">
+    <view class="class_name">
+      <text>VC693:面向对象的程序设计</text>
+    </view>      
+    <view class="welcome">
+      <text>欢迎加入班级！初次见面，怎么称呼？</text>
+    </view>
+    <form bindsubmit="formSubmit">
+      <view class="input_info">
+        <text>姓名</text><input name="student_name"/>
+        <view class="clear"></view>
+      </view>
+      <view class="input_info">
+        <text>学号</text><input name="student_id"/>
+        <view class="clear"></view>
+      </view>
+      <view class="confirm">
+          <button class="confirm_button" form-type="submit">GO</button>
+        <view class="go_icon">
+          <image src="../../image/login/go.jpg"></image>
+        </view>
+      </view>
+    </form>
+  </view>
+</view>

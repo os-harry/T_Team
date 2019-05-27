@@ -1,0 +1,19 @@
+<!--pages/myindex/myindex.wxml-->
+<view class="center">
+  <view class="head_image">
+    <image src="../../image/my/photo.png"/>
+  </view>
+  <view class="info">
+
+    <text>姓名：</text><text class="name">{{user.name}}</text>
+  </view>
+  <view class="info">
+    <text>学号：</text><text class="id">{{user.id}}</text>
+  </view>
+  <navigator url="../myindex_set/myindex_set">
+    <view class="set">
+      <image src="../../image/my/set.jpg"/>
+    </view>
+  </navigator>
+
+</view>

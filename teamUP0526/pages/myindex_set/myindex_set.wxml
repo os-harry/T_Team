@@ -1,0 +1,19 @@
+<!--pages/myindex_set/myindex_set.wxml-->
+<view class="center">
+  <view class="head_image">
+    <image src="../../image/my/photo.png"/>
+  </view>
+  <form bindsubmit='formSubmit'>
+    <view class="info">
+      <text>姓名：</text><input class="student_name" placeholder="{{user.name}}"/>
+    </view>
+    <view class="clear"></view>
+    <view class="info">
+      <text>学号：</text><input class="student_id" placeholder="{{user.id}}"/>
+    </view>
+    <view class="clear"></view>
+    <view class="set">
+      <button form-type='submit'>确定</button>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,79 @@
+/* pages/request_join_list/request_join_lixt.wxss */
+.this_page{
+}
+.head{
+  background-color: white;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.title_2{
+  background-color: #f19e3817;
+  width:375rpx;
+  height:80rpx;
+  border:1rpx #ddd solid;
+  line-height: 80rpx;
+  text-align: center;
+  color:#f19d38;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.title_1{
+  background-color: white;
+  width:375rpx;
+  height:80rpx;
+  border:1rpx #ddd solid;
+  line-height: 80rpx;
+  text-align: center;
+  color:#f19d38;
+  font-size: 30rpx;
+}
+.request_box{
+  background-color: white;
+  width:640rpx;
+  height:150rpx;
+  border-radius: 8rpx;
+  margin-left: 32rpx;
+  margin-top: 20rpx;
+  margin-bottom: 12rpx;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  position: relative;
+  border-top: double #f19d38 14rpx;
+}
+.request_box image{
+  position: absolute;
+  width:50rpx;
+  height: 50rpx;
+  right :10rpx;
+  top:20rpx;
+}
+.head_text{
+  color: #444;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.a_text{
+  font-weight: bold;
+  color: #f19d38;
+}
+.invite_member{
+  font-size: 32rpx;
+  color: #666;
+  margin: 10rpx;
+  margin-right: 40rpx;
+}
+.member_text{
+  color: #666;
+}
+.invite_time{
+  font-size: 29rpx;
+  color: #888;
+  position: absolute;
+  right:80rpx;
+  bottom: 10rpx;
+}
+.invite_head{
+  margin-right: 40rpx;
+}

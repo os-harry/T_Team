@@ -1,0 +1,72 @@
+/* pages/login/login.wxss */
+
+page {
+	background-color: #f19d38;
+}
+.box{
+	width: 750rpx;
+	height: 550rpx; 
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 280rpx;
+}
+
+.class_name{
+  font-size: 56rpx;
+  font-weight: bold;
+
+  margin-left: 50rpx;
+  margin-top: 40rpx;
+}
+
+.welcome{
+  margin-left: 50rpx;
+  margin-top: 10rpx;
+  margin-bottom: 30rpx;
+
+}
+
+.input_info{
+  width: 600rpx;
+  height: 80rpx;
+  margin-top: 20rpx;
+
+  margin-left: 100rpx;
+  line-height: 80rpx;
+
+}
+
+.input_info text{ 
+  float: left;
+}
+
+.input_info input{
+  width: 400rpx;
+  height: 70rpx;
+  border: solid 1px #D0D0D0;
+  margin-left: 20px;
+  float: left;
+}
+
+
+.confirm{
+  margin-left: 500rpx;
+  margin-top: 30rpx;
+}
+
+.confirm button{
+  width:100rpx;
+  height: 80rpx;
+  background-color: #FFFFFF;
+  float: left;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+.confirm image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+
+

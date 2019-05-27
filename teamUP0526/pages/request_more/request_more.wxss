@@ -1,0 +1,51 @@
+/* pages/request_more/request_more.wxss */
+.head{
+  width:600rpx;
+  border: double 20rpx #f19d38;
+  margin-left: 20rpx;
+  margin-top: 100rpx;
+  border-radius: 10rpx;
+  padding: 40rpx;
+  background-color: rgba(255, 255, 255, 0.997);
+}
+.invite_member{
+  font-size: 32rpx;
+  color: #666;
+  margin-top: 10rpx;
+  margin-right: 40rpx;
+}
+.member_text{
+  color: #666;
+}
+.invite_time{
+  font-size: 29rpx;
+  color: #888;
+  margin-left: 360rpx;
+}
+.choise{
+  margin-top: 60rpx;
+  display:flex;
+}
+.c_button{
+  color:#f19d38;
+  margin-left:40rpx;
+  width: 200rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  float: left;
+}
+.title{
+  color: #333;
+  margin-bottom: 30rpx;
+  font-size: 40rpx;
+  text-align: center;
+}
+.a_text{
+  font-weight: bold;
+  color: #f19d38;
+}
+.head_text{
+  color: #444;
+  font-size: 32rpx;
+  font-weight: bold;
+}

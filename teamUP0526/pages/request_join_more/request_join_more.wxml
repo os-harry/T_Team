@@ -1,0 +1,18 @@
+<!--pages/request_join_more/request_join_more.wxml-->
+<view class='block'>
+  <view class='head'>
+    <view class='title'>申请回复</view>
+    <view class='more'>
+      <view class = 'request_box'>
+        <view class='invite_head'><text class='a_text'>{{apply_data.cap}} </text> <text wx:if="apply_data.agree == true" class='head_text'>{{apply_data.feedback}}了 </text><text wx:else class='head_text'>拒绝了 </text><text class='a_text'>{{apply_data.me}} </text><text class='head_text'>加入队伍：</text><text class='a_text'>{{apply_data.team_id}}</text><text class='head_text'>的申请</text></view>
+        <view class='invite_member'><text class='member_text'>当前队员为：</text><text wx:for="{{apply_data.member}}" wx:for-item="i">{{i}} </text><text >{{apply_data.me}} </text>      
+        </view>   
+        <view class='invite_time'>{{apply_data.time}}</view>   
+      </view>
+    </view>
+  </view>
+  <view class='choise'>
+    <view bindtap='read_already'><button class='c_button'>了解啦</button></view>
+  </view>
+</view>
+

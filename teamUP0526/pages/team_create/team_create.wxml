@@ -1,0 +1,58 @@
+<!--pages/team_create/team_create.wxml-->
+
+<view class="head">
+  <view class="class_name">
+    <text>{{class_info.id}}：{{class_info.name}}</text>
+  </view>
+  <view class="intro">
+    <image src="../../image/team_list/team.jpg"/>
+    <text class="sup">{{class_info.sup}}人</text>
+    <text class="count">共计{{class_info.teams_count}}队</text>
+    <navigator class="out">导出队伍信息</navigator>
+    <view class="clear"></view>
+  </view>
+  <view class="option">
+    <navigator class="join" url="../team_list/team_list">加入队伍</navigator>
+  </view>
+  <view class="option choose">
+    <navigator class="create" url="../team_create/team_create">创建队伍</navigator>
+  </view>
+  <view class="clear"></view>
+</view>
+<view class="create_box">
+  <form bindsubmit="formSubmit">
+    <view class="id">
+      <text>ID:{{team.id}}</text>
+    </view>
+    <view class="mem_sup">
+      <text>人数：{{team.sup}}</text>
+    </view>
+    <view class="leader">
+      <text>队长：</text>
+      <input name= "leader_name" class="leader_name" placeholder="{{leader_name}}"/>
+    </view>
+    <view class="clear"></view>
+    <view class="more">
+      <text>更多信息：</text>
+      <input name="info" class="info" placeholder="{{team.info}}"/>
+    </view>
+    <view class="invite">
+      <text class="title">邀请成员</text>
+
+      <view class="single_list">
+        <checkbox-group bindchange="checkboxChange">
+          <label  class="checkbox" wx:for="{{class_info.single_list}}" wx:for-item="single_name">
+            <view>
+              <image src="../../image/head_images/1.jpg"/>
+            </view>
+            <text>{{single_name}}</text>
+            <checkbox value='{{single_name}}'/>
+          </label>
+        </checkbox-group>
+      </view>
+      <view class="clear"></view>
+      <button formType="submit" class="commit">发布</button>
+    </view>
+  </form>
+</view>
+

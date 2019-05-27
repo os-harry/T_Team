@@ -1,0 +1,37 @@
+<!--pages/class_list/class_list.wxml-->
+<view class='page'>
+  <view class='page_hd'>
+
+    <view class='user_msg'>
+      <view class='user_circle'>
+        <view class = 'user_text'>
+          <text>{{user.fname}}</text>
+        </view>
+      </view>
+
+      <view class = 'c-text'>
+        <view class='user_name'>{{user.name}}</view>
+        <view class='user_id'>学号：{{user.id}}</view>
+      </view>
+    </view>
+    <view class='class_jc'>
+      <image bindtap='actionSheetTap' src='../../image/class_list/list.png'></image>
+      <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+      <block>
+        <navigator url = '../class_join/class_join'><action-sheet-item class="item" bingtap="bindjoin">加入班级</action-sheet-item></navigator>
+        <navigator url = '../class_create/class_create'><action-sheet-item class="item" bingtap="bindcreate">创建班级</action-sheet-item></navigator>
+      </block>
+        <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+      </action-sheet>
+    </view>
+  </view>
+  <view class = 'page_body'>
+    <view wx:for="{{class_data}}" class = 'class_block'>
+      <view class='class_name'>{{item.name}}</view>
+      <view class='class_msg'>教师：{{item.teacher}}  班级人数：{{item.student_numbers}}  队伍数量：{{item.team_numbers}}</view>
+      <view class='class_button' bindtap='go_into_class' data-classid="{{item.id}}">
+        <image src='../../image/class_list/more.png' class='more_button'></image>
+      </view>
+    </view>
+  </view>
+</view>

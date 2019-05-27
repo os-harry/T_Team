@@ -1,0 +1,64 @@
+
+/* pages/team_more/team_more.wxss */
+.create_box{
+  width:690rpx;
+  margin-left: 30rpx;
+  margin-top: 150rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  padding-bottom: 30rpx;
+  margin-bottom: 40rpx;
+  border-top: #f19d38 double 26rpx;
+}
+
+.no_use{
+  height: 10rpx;
+}
+.intro{
+  margin-left: 10rpx;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+  width:670rpx;
+  color: #444;
+}
+
+.invite{
+  margin-top: 40rpx;
+  margin-left: 10rpx;
+  width: 670rpx;
+  font-size: 30rpx;
+}
+
+.member_list{
+  width: 670rpx;
+}
+
+.member{
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+  color: #696969;
+  width: 100rpx;
+  height: 150rpx;
+  float: left;
+  font-size: 25rpx;
+  text-align: center;
+  position: relative;
+}
+
+.member image{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 6rpx;
+}
+
+.join{
+  width:150rpx;
+  height: 60rpx;
+  font-size:30rpx;
+  background-color: #f19d38;
+  line-height: 60rpx;
+  margin-top: 50rpx;
+  margin-right: 10rpx;
+  color: #ffffff;
+}
+

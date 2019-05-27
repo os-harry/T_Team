@@ -1,0 +1,120 @@
+
+/* pages/team_list/team_list.wxss */
+.head{
+  background-color: #fff;
+  padding-top: 50rpx;
+}
+
+.class_name{
+  font-size: 40rpx;
+  font-weight: bold;
+  width:750rpx;
+  margin-left: 30rpx;
+  color: #333;
+}
+
+.intro{
+  margin-left: 30rpx;
+  margin-top: 14rpx;
+  height: 50rpx;
+  width: 690rpx;
+}
+
+.intro  navigator{
+  text-decoration: underline;
+  color: #000080;
+  font-size: 28rpx;   
+  height: 50rpx;
+  line-height: 50rpx;
+  float: left;
+}
+
+.intro text{
+  font-size: 28rpx;   
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #444;
+  float: left;
+}
+
+.intro image{
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+}
+
+.sup{
+  margin-left: 12rpx;
+}
+
+.count{
+  margin-left: 110rpx;
+}
+
+.out{
+  margin-left: 110rpx;
+}
+
+.option{
+  width: 375rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  float: left;
+  text-align: center;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+}
+
+.choose{
+  border-top: solid 5rpx #f19d38;
+  background-color: #f19e3817;
+}
+
+.team_list{
+  margin-top: 40rpx;
+}
+
+.team{
+  width: 690rpx;
+  margin-left: 30rpx;
+  border-bottom: #f19d38 double 16rpx;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  background-color: #fff;
+  padding-bottom: 20rpx;
+}
+
+.team .id{
+  float:left;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-top:10rpx;
+}
+
+.team .number{
+  float: right;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-right: 10rpx;
+  font-size: 28rpx;
+  color: #696969;
+  margin-top: 10rpx;
+}
+
+.team image{
+  width: 60rpx;
+  height: 60rpx;
+  float: right;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+}
+
+.info{
+  color: #444;
+  margin-left: 10rpx;
+  font-size: 28rpx;
+}
+

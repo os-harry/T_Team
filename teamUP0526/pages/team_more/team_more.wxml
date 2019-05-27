@@ -1,0 +1,32 @@
+
+<view class="create_box">
+  <view class="no_use"></view>
+  <view class="intro">
+    <text class="id">ID：{{team.id}}</text>
+  </view>
+  <view class="intro">
+    <text class="mem_sup">人数：{{team.count}}/{{team.sup}}</text>
+  </view>
+  <view class="intro">
+    <text class="leader">队长：{{team.leader}}</text>
+  </view>
+  <view class="intro">
+    <text class="more">更多信息：</text>
+    <text class="info">{{team.info}}</text>
+  </view>
+  <view class="invite">
+    <text class="title">成员名单</text>
+    <view class="member_list">
+      <view class="member" wx:for="{{team.member}}" wx:for-item="member_name">
+        <view>
+          <image src="../../image/head_images/1.jpg"/>
+        </view>
+        <view class="mask"></view>
+        <text>{{member_name}}</text>
+      </view>
+      <view class="clear"></view>
+    </view>
+    <button class="join" bindtap='join_team'>加入</button>
+  </view>
+</view>
+

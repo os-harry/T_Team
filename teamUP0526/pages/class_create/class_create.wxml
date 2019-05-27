@@ -1,0 +1,21 @@
+<!--pages/class_create/class_create.wxml-->
+<!--pages/class_create/class_create.wxml-->
+<view class= 'page_m'>
+<form bindsubmit="formSubmit">
+  <view class='head'>创建班级</view>
+  <view class='intro'>教师输入班级基本信息进行班级创建</view>
+  <view class ='in_su'>   
+    <view class='basic'>
+      <text class='basic_text'>ID：{{class_id}}</text>
+      <text class='basic_text'>班级名称：</text><input name="class_name" type="text" placeholder="XXX" class="join_input"/>
+    </view>
+    <view class='basic_2'>
+      <text class='basic_text_2'>课程教师：</text><input name="class_teacher" type="text" placeholder="XXX" class="join_input_2" />
+      <text class='basic_text_2'>班级人数：</text><input name="class_size" type="number" placeholder="XX" class="join_input_2"/>
+    </view>
+    <text class='basic_text_3'>课程简介/要求：</text><input name="class_intro" type="text" placeholder="XX" class="join_input_3"/>
+  </view>
+  <button formType="submit" type="default">完成</button>
+</form>
+</view>
+
